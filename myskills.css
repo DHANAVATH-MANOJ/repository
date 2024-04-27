@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+header {
+    background-color:rgba(164, 108, 108, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.services {
+    display: flex; /* Make the services section use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to multiple lines */
+}
+
+.service {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 3px solid ;
+    border-color:linear-gradient(45deg, blue, red);;
+    border-radius: 100%;
+    width: 28%; /* Set width to 33.33% for 3 divs side-by-side */
+    margin-right:35px;
+    text-align: center;
+}
+
+.service h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background:rgba(164, 108, 108, 0);
+}
+*{
+    color: white;
+}
+header h1{
+    font-size: 48px; /* Adjust size as needed */
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg, rgb(205, 148, 56), rgb(187, 255, 0)); /* Customize colors and angle */
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+}
+.btn {
+    background-color: rgb(44, 218, 44);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

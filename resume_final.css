@@ -1,0 +1,38 @@
+#minor{
+    background-color: antiquewhite;
+    width: 28%;
+    height: 950px;
+    margin-top: 0%;
+    
+}
+#major{
+    position: absolute;
+    left: 30%;
+    
+    width:70%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+p,li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12pt;
+}
+.btn {
+    background-color:rgb(35, 223, 35);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Color Palette */
+:root {
+  --primary-color: #4CAF50;  /* Green */
+  --secondary-color: #f1f1f1; /* Light Gray */
+}
+
+/* Header */
+header {
+    padding: 20px 0;
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    padding: 40px 0;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    padding: 10px 0;
+    text-align: center;
+    color: var(--text-color);
+}
+*{
+    background-color: black;
+    color: white;
+}
+.container h2{
+    font-size: 48px; /* Adjust size as needed */
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg, blue, red); /* Customize colors and angle */
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+}

@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.buttons a:hover {
+    background-color: #3e8e41;
+}
+#div1{
+    width: 38%;
+float: left;
+}
+#div2{
+    width: 62%;
+    float: right;
+}
+h2{
+    padding-bottom: 30px;
+}
+hr {
+    border: 1px solid #ddd; /* Change the color here */
+    margin: 10px 0; /* Adjust margin for spacing */
+    border-color: #4CAF50;
+}
+#para{
+    padding-right: 20px;
+    padding-left: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+#div1 h2{
+font-size: 60px; /* Adjust size as needed */
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg, rgb(0, 255, 30), rgb(0, 17, 255)); /* Customize colors and angle */
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;}
+*{
+    color: white;
+    background-color: black;
+}
+
+
